@@ -1,4 +1,4 @@
-# name: build-and-push-bskyweb-aws
+name: build-and-push-bskyweb-aws
 # on:
 #   workflow_dispatch:
 #   push:
