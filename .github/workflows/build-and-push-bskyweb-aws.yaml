@@ -1,9 +1,11 @@
-name: build-and-push-bskyweb-aws # COMMENTED OUT FOR NOW
-# on:
-#   workflow_dispatch:
-#   push:
-#     branches:
-#       - main
+name: build-and-push-bskyweb-aws
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      # - main # COMMENTED OUT FOR NOW
+      - skipped
+
 
 # env:
 #   REGISTRY: ${{ secrets.AWS_ECR_REGISTRY_USEAST2_PACKAGES_REGISTRY }}
