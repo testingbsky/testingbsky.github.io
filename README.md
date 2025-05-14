@@ -1,3 +1,40 @@
+# 10X Social App
+
+This is a fork of the [Bluesky Social app](https://github.com/bluesky-social/social-app).
+
+The fork is hosted on GitHub Pages and available here: [https://chrisjacob.github.io/10xsocial](https://chrisjacob.github.io/10xsocial)
+
+Fork this repository to easily setup your own personal Bluesky app (for FREE! ...plus no local developer environment required).
+
+**Simple 10 Step Setup:**
+1. Create an account on GithHub, login and go to [https://github.com/chrisjacob/10xsocial](https://github.com/chrisjacob/10xsocial) (you are here)
+2. Click on the "Fork" button, the "Create a fork" modal will pop up, now click "Create fork" (the default values are fine)
+3. Now on your forked repository page (e.g. https://github.com/YOUR-GITHUB-USERNAME/10xsocial) click on the "Actions" tab
+4. Click "I understand my workflows, go ahead and enable them" (the workflows are safe)
+5. Click on the "Code" tab, scroll down to the "README" and click on the "Pencil" (Edit file) button 
+6. Make a minor edit to the README file (e.g. add a space character), then click the "Commit changes..." button, then "Commit changes" button (the default values are fine)
+7. Click on the "Actions" tab, you should see 4 skipped workflows (Grey icon), and 3 workflows "In progress" (Yellow icon)
+8. Wait about 6 minutes for the "Build and Deploy Github Pages" workflow to complete successfully (Green icon)
+9. Click on the "Settings" tab, then the "Pages" sub-menu. Update fields to: Source = "Deploy from a branch", Branch = "gh-pages", Folder = "/ (root)", then click the "Save" button
+10. Wait a minute then refresh the page... you should see "Your site is live at https://YOUR-GITHUB-USERNAME.github.io/10xsocial/" (go take a look!)
+
+When you go to your app you'll see a "Page not found" page, you can simply ignore this and click "Sign In".
+
+If you setup a Custom Domain the "Page not found" issue goes away... e.g. [https://10x.social](https://10x.social)
+
+**Setup a Custom Domain:**
+If you get stuck, please [read the docs](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site), Google it, or ask ChatGPT.
+
+1. Register a domain name e.g. "my-awesome-app.com" via a domain registrar e.g. https://www.namecheap.com
+2. In GitHub, click on the "Settings" tab, then the "Pages" sub-menu. 
+3. Under the "Custom domain" section enter your domain e.g. "my-awesome-app.com" and click "Save"
+4. Setup your DNS: [Configure an apex domain](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site) and [Configure the www subdomain variant](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site)
+5. [Verifying your custom domain for GitHub Pages](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/verifying-your-custom-domain-for-github-pages)
+
+---
+
+# TODO ...I need to update the rest of the README file.
+
 # Bluesky Social App
 
 Welcome friends! This is the codebase for the Bluesky Social app.
