@@ -1,4 +1,4 @@
-# 10X Social App 
+# 10X Social App  
 
 This is a fork of the [Bluesky Social app](https://github.com/bluesky-social/social-app).
 
